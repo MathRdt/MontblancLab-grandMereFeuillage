@@ -9,7 +9,16 @@
             "hello",
             "help"
           ],
-          "name": "Hello Class World",
+          "name": "grand-mere-feuillage",
+          "description": "Sample Full Description"
+        },
+        "fr-FR": {
+          "summary": "Courte description des sample",
+          "examplePhrases": [
+            "Alexa ouvre grand mère feuillage",
+            "bonjour"
+          ],
+          "name": "grand-mere-feuillage",
           "description": "Sample Full Description"
         }
       },
@@ -21,8 +30,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/py",
-          "uri": "ask-custom-helloworld-classes-default"
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "ask-custom-grand-mere-feuillage-default"
         }
       }
     },

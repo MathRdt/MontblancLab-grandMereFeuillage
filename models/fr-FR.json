@@ -1,0 +1,79 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "grand mère feuillage",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StareAtNatureIntent",
+                    "samples": [
+                        "contempler",
+                        "contempler la Nature",
+                        "je veux contempler la Nature",
+                        "je souhaite contempler la Nature"
+                    ]
+                },
+                {
+                    "name": "FeelTheNatureIntent",
+                    "samples": [
+                        "ressentir",
+                        "ressentir la Nature",
+                        "je veux ressentir la Nature",
+                        "je souhaite ressentir la Nature"
+                    ]
+                },
+                {
+                    "name": "DeepDiveIntoNatureIntent",
+                    "samples": [
+                        "comprendre",
+                        "mieux comprendre la Nature",
+                        "je veux mieux comprendre la Nature",
+                        "je souhaite mieux comprendre la Nature"
+                    ]
+                },
+                {
+                    "name": "LearnAboutNatureIntent",
+                    "samples": [
+                        "apprendre",
+                        "apprendre les secrets de la Nature",
+                        "je veux apprendre les secrets de la Nature",
+                        "je souhaite apprendre les secrets de la Nature"
+                    ]
+                },
+                {
+                    "name": "ParticipativeScienceNatureIntent",
+                    "samples": [
+                        "participer",
+                        "faire avancer la recherche sur la Nature",
+                        "je veux faire avancer la recherche sur la Nature",
+                        "je souhaite faire avancer la recherche sur la Nature"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
