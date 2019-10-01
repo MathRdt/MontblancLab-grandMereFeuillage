@@ -16,6 +16,38 @@
       },
       "was_cloned": false,
       "merge": {}
+    },
+    "lab-crea": {
+      "skill_id": "amzn1.ask.skill.7fda5370-97f3-4b95-90ed-5c66804bab8c",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "266cf7d70eee950736d65d32d4afadbb"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "27cec0ce75e2f8861f5505075a99718d"
+          },
+          "fr-FR": {
+            "eTag": "e0da79a0cb11c74be612e83d1c4aa569"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:439802795373:function:ask-custom-grand-mere-feuillage-default",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/py/lambda_upload",
+            "functionName": "ask-custom-grand-mere-feuillage-default",
+            "handler": "lambda_function.lambda_handler",
+            "revisionId": "75a132d1-07a9-4572-97a3-f0fc06ebbc7d",
+            "runtime": "python3.6"
+          }
+        ]
+      }
     }
   }
 }
